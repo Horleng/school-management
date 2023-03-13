@@ -1,7 +1,5 @@
 import React from 'react';
-import {AiFillDashboard} from "react-icons/ai"
 import {BiChevronRight} from "react-icons/bi"
-import {MdPayment} from "react-icons/md"
 import BachelorDegree from "./img/BachelorDegree.png"
 import {NavLink} from "react-router-dom"
 const Navigationbar = () => {

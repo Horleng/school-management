@@ -13,8 +13,8 @@ const Header = () => {
                     <span className='text-lg font-Noto font-semibold mx-2 text-gray-500'>School Management System</span>
                 </div>
                 <div className='relative flex flex-[0.5]'>
-                    <input type="search" placeholder='Searching...' className='py-2 font-Noto w-full rounded-full bg-[#ebebeb] px-5 transition-all outline-none'/>
-                    <AiOutlineSearch size='25px' fill='gray' className='absolute right-2 top-1'/>
+                    <input type="search" placeholder='Searching...' className='placeholder:font-Noto placeholder:text-sm py-3 text-gray-600 text-base font-Noto font-semibold w-full rounded-full bg-[#ebebeb] px-5 transition-all outline-none'/>
+                    <AiOutlineSearch size='25px' fill='gray' className='absolute right-4 top-2'/>
                 </div>
                 <div className='flex-[0.5] flex justify-center items-center gap-5'>
                     <span className='cursor-pointer'><MdDarkMode size="30px"/></span>
