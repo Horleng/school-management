@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Noto+Serif+Lao:wght@300&family=Roboto:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer component{
+  *{
+    @apply text-gray-300 m-0 p-0 font-Heebo text-sm
+  }
+  body{
+    @apply bg-[#eaf0efea] overflow-x-clip
+  }
+  ul li{
+    @apply cursor-pointer py-2 transition-all
+  }
+  ul li span{
+    @apply text-base
+  }
+  .active li{
+    @apply bg-blue-500
+  }
+}
